@@ -9,3 +9,6 @@ Development ideas I might do;
 - Implement other media types, so that basically any http music stream can be played via the bot
 - Implement NRK podcasts from the Norwegian broadcaster, since my kids use it - based on https://github.com/sindrel/nrk-pod-feeds
 - ?
+
+
+Feel free to ask questions here: https://matrix.to/#/#sonosremotes:vibb.me
