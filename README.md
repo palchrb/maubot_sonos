@@ -11,4 +11,5 @@ Development ideas I might do;
 - ?
 
 
-Feel free to ask questions here: https://matrix.to/#/#sonosremotes:vibb.me
+Feel free to ask questions here: [![Matrix](https://img.shields.io/badge/Matrix-Join%20chat-000?logo=matrix&logoColor=white)](https://matrix.to/#/#sonosremotes:vibb.me)
+
