@@ -4,10 +4,10 @@ Plugin for Maubot to control your Sonos sound system. Requires a server running 
 Currently you need to configure/point to the backend in the maubot instance window - and also whitelist which users can actually use it. There is no auth yet, as myself I am letting it connect encrypted via tailscale.
 
 Development ideas I might do;
-- Implement secret based auth
-- Allow users to configure their sonos backend via a room state event, so multiple users can use the bot on the same instance - and not just the maubot admin
-- Implement other media types, so that basically any http music stream can be played via the bot
-- Implement NRK podcasts from the Norwegian broadcaster, since my kids use it - based on https://github.com/sindrel/nrk-pod-feeds
+- Implement secret based auth (now implemented!)
+- Allow users to configure their sonos backend via a room state event, so multiple users can use the bot on the same instance - and not just the maubot admin (now implemented, but through account data instead of room specifically)
+- Implement other media types, so that basically any http music stream can be played via the bot (implemented, but untested)
+- Implement NRK podcasts from the Norwegian broadcaster, since my kids use it - based on https://github.com/sindrel/nrk-pod-feeds (implemented - can give both a link to a podcast series like so https://radio.nrk.no/podkast/fantorangenfortellinger, and it will play the whole series - or like so to play only a specific episode: https://radio.nrk.no/podkast/fantorangenfortellinger/l_17d00a92-711b-4bdc-900a-92711b2bdce1. Not that this requires you to have the xml files from NRK for all the podcasts you want to use, that i get through the above menetioed nrk-pod-feeds repo. They need to be available for the sonos backend server. 
 - ?
 
 
