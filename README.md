@@ -1,7 +1,7 @@
 # maubot_sonos
 Plugin for Maubot to control your Sonos sound system. Requires a server running https://github.com/palchrb/sonos-remotes/blob/main/app.py, which is a SoCo based server backend, in the local network where you will control your Sonos system. For now it only plays links you give it from Spotify (spotify sharelinks), but plan is to include other media links as well.
 
-Currently you need to configure/point to the backend in the maubot instance window - and also whitelist which users can actually use it. There is no auth yet, as myself I am letting it connect encrypted via tailscale.
+Currently you need to configure/point to the backend through !sonos login #endpoint #secret (optional, only if you use auth on your endpoint) - and also whitelist which users can actually use it. 
 
 Development ideas I might do;
 - Implement secret based auth (now implemented!)
