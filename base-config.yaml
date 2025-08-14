@@ -1,11 +1,6 @@
 # Maubot Sonos plugin base configuration
 
-# Your Sonos-backend URL:
-api_url: "http://tailnet:5000"
-
-# Device ID to identify this Maubot instance (must match your backend mapping):
-default_device: "remote1"
-
 whitelist:
-  - "@you:example.com"
-  - "@alice:example.com"
+  - '@alice:example.com'         # spesific user
+  - ':example.com'                 # all on example.com homeserver
+  - '^@[^:]+:example\.cp,$'        # regex all @user:example.com
