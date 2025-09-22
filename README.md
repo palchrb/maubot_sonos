@@ -10,5 +10,4 @@ Development ideas I might do;
 - Implement NRK podcasts from the Norwegian broadcaster, since my kids use it - based on https://github.com/sindrel/nrk-pod-feeds (implemented - can give both a link to a podcast series like so https://radio.nrk.no/podkast/fantorangenfortellinger, and it will play the whole series - or like so to play only a specific episode: https://radio.nrk.no/podkast/fantorangenfortellinger/l_17d00a92-711b-4bdc-900a-92711b2bdce1. Not that this requires you to have the xml files from NRK for all the podcasts you want to use, that i get through the above menetioed nrk-pod-feeds repo. They need to be available for the sonos backend server. 
 - ?
 
-
-Feel free to ask questions here: **[#sonosremotes:vibb.me](https://matrix.to/#/#sonosremotes:vibb.me)**  .......
+Feel free to contact me [on Matrix](https://matrix.to/#/#whatever:vibb.me)
