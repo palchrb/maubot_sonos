@@ -11,7 +11,3 @@ Development ideas I might do;
 - ?
 
 Feel free to contact me [on Matrix](https://matrix.to/#/#whatever:vibb.me)
-  
-
-      
-     
